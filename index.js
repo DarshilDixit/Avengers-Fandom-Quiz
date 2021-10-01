@@ -76,7 +76,7 @@ for (var j = 0; j < highScorers.length; j++) {
 
 if (score >= currentHighscorer.score) {
   console.log("----------------------")
-  console.log(chalk.magentaBright("Congratulations!!! " + userName + " You deserve a rank among high scores.Send me a Screenshot your result so that i can update it here. "));
+  console.log(chalk.magentaBright("Congratulations!!! " + userName + " You deserve a rank among high scores.Send me a Screenshot of your result so that i can update it here. "));
 } else {
   console.log();
 };
