@@ -15,7 +15,7 @@ var highScorers = [{
   },
 ]
 var userName = readlineSync.question(chalk.bgBlack("What's you name? "));
-console.log(chalk.blue("Welcome " + userName + "! to --- HOW WELL DO YOU KNOW ABOUT AVENGERS?  ---QUIZ"));
+console.log(chalk.blue("Welcome " + userName + "! To --- HOW WELL DO YOU KNOW ABOUT AVENGERS?  ---QUIZ"));
 console.log("------")
 
 
@@ -64,7 +64,7 @@ for (var i = 0; i < questions.length; i++) {
   play(currentQuestion.question, currentQuestion.answer);
 }
 
-console.log(chalk.yellowBright("Yay! " + userName + ", Your final score: " + score));
+console.log(chalk.yellowBright(userName + ", Your final score: " + score));
 console.log("---------------------------")
 
 console.log(chalk.blue("Check out the high scores:- "));
